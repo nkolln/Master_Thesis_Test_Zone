@@ -43,6 +43,7 @@ for i in range(num_episodes):
     state = env.reset()
 
     # run the environment for 1000 steps
+    
     for j in range(1000):
         # select an action using the model
         action = model(state)
